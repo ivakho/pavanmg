@@ -1,0 +1,38 @@
+.tech__section {
+    display: flex;
+    flex-direction: column;
+    gap: 141px;
+
+    max-width: 1219px;
+
+    margin: 0 auto 193px auto;
+    padding-right: 13px;
+}
+
+@media (max-width: 1280px) {
+    .tech__section {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 876px) {
+    .tech__section {
+        gap: 50px;
+
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tech__section {
+        gap: 40px;
+
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 451px) {
+    .tech__section {
+        gap: 40px;
+    }
+}

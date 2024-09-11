@@ -1,0 +1,17 @@
+:root {
+    --color-dove-gray: #666666;
+    --color-fiord: #42446E;
+    --color-dodger-blue: #13B0F5;
+    --color-schoker-pink: #E70FAA;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --font-size-nav: 20px;
+    --font-size-huge-title: 58px;
+    --font-size-regular-title: 48px;
+    --font-size-small-title: 28px;
+    --font-size-huge-paragraph: 32px;
+    --font-size-regular-paragraph: 18px;
+    --font-size-small-paragraph: 16px;
+    --font-size-small-info: 14px;
+}

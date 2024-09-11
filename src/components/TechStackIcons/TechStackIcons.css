@@ -1,0 +1,133 @@
+.techStackIcons__container {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.html__icon {
+    width: 120px;
+    height: 120px;
+
+    margin-right: 103px;
+    padding-top: 6px;
+}
+
+.css__icon {
+    width: 120px;
+    height: 119px;
+
+    margin-right: 104px;
+    padding-top: 5px;
+}
+
+.js__icon {
+    width: 120px;
+    height: 120px;
+
+    margin: -1px 106px 0 0;
+}
+
+.react__icon {
+    width: 113px;
+    height: 101px;
+
+    margin-right: 119px;
+    padding-top: 6px;
+}
+
+.redux__icon {
+    width: 105px;
+    height: 100px;
+
+    margin: -1px 117px 0 0;
+}
+
+.bootstrap__icon {
+    width: 88px;
+    height: 87px;
+
+    margin-top: -3px;
+}
+
+.tailwind__icon {
+    width: 131px;
+    height: 131px;
+
+    padding-top: 67px;
+    margin-right: 95px;
+}
+
+.saas__icon {
+    width: 117px;
+    height: 87px;
+
+    padding-top: 89px;
+    margin-right: 112px;
+}
+
+.git__icon {
+    width: 105px;
+    height: 105px;
+
+    padding-top: 71px;
+    margin-right: 93px;
+}
+
+.greensock__icon {
+    width: 120px;
+    height: 120px;
+
+    padding-top: 64px;
+    margin-right: 132px;
+}
+
+.vscode__icon {
+    width: 112px;
+    height: 112px;
+
+    padding-top: 50px;
+    margin-right: 113px;
+}
+
+.github__icon {
+    width: 88px;
+    height: 88px;
+
+    padding-top: 62px;
+    filter: grayscale(100%) brightness(0) contrast(100%);
+}
+
+@media (max-width: 1280px) {
+    .techStackIcons__container {
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .html__icon,
+    .css__icon,
+    .js__icon,
+    .react__icon,
+    .redux__icon,
+    .bootstrap__icon,
+    .tailwind__icon,
+    .saas__icon,
+    .git__icon,
+    .greensock__icon,
+    .vscode__icon,
+    .github__icon {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 451px) {
+    .techStackIcons__container {
+        gap: 40px;
+    }
+
+    .teckStackIcons__img {
+        width: 60px;
+        height: 60px;
+    }
+}

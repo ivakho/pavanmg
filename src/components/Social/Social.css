@@ -1,0 +1,27 @@
+.social__ul {
+    display: flex;
+    justify-content: space-between;
+
+    width: 130px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.social__link {
+    display: block;
+
+    width: 30px;
+    height: 30px;
+}
+
+.social__img {
+    width: 30px;
+    height: 30px;
+}
+
+.social__li:nth-child(2) {
+    margin-left: 2px;
+}
