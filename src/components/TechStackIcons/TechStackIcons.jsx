@@ -1,5 +1,5 @@
 import React from "react";
-import "./TechStackIcons.css";
+import styles from "./TechStackIcons.module.css";
 import htmlIcon from "../../assets/images/icons/html.svg";
 import cssIcon from "../../assets/images/icons/css.svg";
 import jsIcon from "../../assets/images/icons/js.svg";
@@ -15,52 +15,52 @@ import githubIcon from "../../assets/images/icons/github.svg";
 
 const TechStackIcons = () => {
   return (
-    <div className="techStackIcons__container">
+    <div className={styles.techStackIcons__container}>
       <img
-        className="teckStackIcons__img html__icon"
+        className={`${styles.teckStackIcons__img} ${styles.html__icon}`}
         src={htmlIcon}
         alt="HTML"
       />
-      <img className="teckStackIcons__img css__icon" src={cssIcon} alt="CSS" />
-      <img className="teckStackIcons__img js__icon" src={jsIcon} alt="JS" />
+      <img className={`${styles.teckStackIcons__img} ${styles.css__icon}`} src={cssIcon} alt="CSS" />
+      <img className={`${styles.teckStackIcons__img} ${styles.js__icon}`} src={jsIcon} alt="JS" />
       <img
-        className="teckStackIcons__img react__icon"
+        className={`${styles.teckStackIcons__img} ${styles.react__icon}`}
         src={reactIcon}
         alt="React"
       />
       <img
-        className="teckStackIcons__img redux__icon"
+        className={`${styles.teckStackIcons__img} ${styles.redux__icon}`}
         src={reduxIcon}
         alt="Redux"
       />
       <img
-        className="teckStackIcons__img bootstrap__icon"
+        className={`${styles.teckStackIcons__img} ${styles.bootstrap__icon}`}
         src={bootstrapIcon}
         alt="Bootstrap"
       />
       <img
-        className="teckStackIcons__img tailwind__icon"
+        className={`${styles.teckStackIcons__img} ${styles.tailwind__icon}`}
         src={tailwindIcon}
         alt="Tailwind"
       />
       <img
-        className="teckStackIcons__img saas__icon"
+        className={`${styles.teckStackIcons__img} ${styles.saas__icon}`}
         src={saasIcon}
         alt="Saas"
       />
-      <img className="teckStackIcons__img git__icon" src={gitIcon} alt="Git" />
+      <img className={`${styles.teckStackIcons__img} ${styles.git__icon}`} src={gitIcon} alt="Git" />
       <img
-        className="teckStackIcons__img greensock__icon"
+        className={`${styles.teckStackIcons__img} ${styles.greensock__icon}`}
         src={greensockIcon}
         alt="Greensock"
       />
       <img
-        className="teckStackIcons__img vscode__icon"
+        className={`${styles.teckStackIcons__img} ${styles.vscode__icon}`}
         src={vscodeIcon}
         alt="VSCode"
       />
       <img
-        className="teckStackIcons__img github__icon"
+        className={`${styles.teckStackIcons__img} ${styles.github__icon}`}
         src={githubIcon}
         alt="Github"
       />

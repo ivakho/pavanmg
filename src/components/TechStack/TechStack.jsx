@@ -1,5 +1,5 @@
 import React from "react";
-import "./Techstack.css";
+import styles from "./TechStack.module.css";
 import SectionDescription from "../SectionDescription/SectionDescription";
 import TechStackIcons from "../TechStackIcons/TechStackIcons";
 
@@ -11,7 +11,7 @@ const TECH_DESCRIPTION = {
 
 const TechStack = () => {
   return (
-    <section className="tech__section" id="tech__stack__id">
+    <section className={styles.tech__section} id="tech__stack__id">
       <SectionDescription
         title={TECH_DESCRIPTION.title}
         paragraph={TECH_DESCRIPTION.paragraph}

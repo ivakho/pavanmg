@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import styles from "./Projects.module.css";
 import SectionDescription from "../SectionDescription/SectionDescription";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import project1_img from "../../assets/images/project1_img.png";
@@ -74,13 +74,13 @@ const PROJECT_CARDS = [
 
 const Projects = () => {
   return (
-    <section className="projects__section" id="projects__id">
+    <section className={styles.projects__section} id="projects__id">
       <SectionDescription
         title={PROJECTS_DESCRIPTION.title}
         paragraph={PROJECTS_DESCRIPTION.paragraph}
         marginRight={PROJECTS_DESCRIPTION.marginRight}
       />
-      <div className="project__cards">
+      <div className={styles.project__cards}>
         {PROJECT_CARDS.map((item, index) => (
           <ProjectCard
             key={index}

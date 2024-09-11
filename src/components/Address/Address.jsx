@@ -1,13 +1,13 @@
 import React from "react";
-import "./Address.css";
+import styles from "./Address.module.css";
 
 const Address = () => {
   return (
-    <address className="address">
-      <a className="address__link" href="tel:+911234509876">
+    <address className={styles.address}>
+      <a className={styles.address__link} href="tel:+911234509876">
         +91 12345 09876
       </a>
-      <a className="address__link" href="mailto:info@example.com">
+      <a className={styles.address__link} href="mailto:info@example.com">
         info@example.com
       </a>
     </address>

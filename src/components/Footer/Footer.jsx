@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import styles from "./Footer.module.css";
 import Nav from "../Nav/Nav";
 import { Credits } from "../Credits/Credits";
 
@@ -28,11 +28,11 @@ const NAV_INFO = [
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer__column">
+    <footer className={styles.footer}>
+      <div className={styles.footer__column}>
         <Nav navItems={NAV_INFO} style={"small"} />
       </div>
-      <div className="footer__column">
+      <div className={styles.footer__column}>
         <Credits />
       </div>
     </footer>

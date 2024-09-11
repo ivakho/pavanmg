@@ -1,5 +1,5 @@
 import React from "react";
-import "./Social.css";
+import styles from "./Social.module.css";
 import github from "../../assets/images/icons/github.svg";
 import twitter from "../../assets/images/icons/twitter.svg";
 import linkedin from "../../assets/images/icons/linkedin.svg";
@@ -10,20 +10,20 @@ const Social = ({
   linkedinIcon = linkedin,
 }) => {
   return (
-    <ul className="social__ul">
-      <li className="social__li">
-        <a className="social__link" href="#" target="_blank">
-          <img className="social__img" src={githubIcon} alt="github" />
+    <ul className={styles.social__ul}>
+      <li className={styles.social__li}>
+        <a className={styles.social__link} href="#" target="_blank">
+          <img className={styles.social__img} src={githubIcon} alt="github" />
         </a>
       </li>
-      <li className="social__li">
-        <a className="social__link" href="#" target="_blank">
-          <img className="social__img" src={twitterIcon} alt="twitter" />
+      <li className={styles.social__li}>
+        <a className={styles.social__link} href="#" target="_blank">
+          <img className={styles.social__img} src={twitterIcon} alt="twitter" />
         </a>
       </li>
-      <li className="social__li">
-        <a className="social__link" href="#" target="_blank">
-          <img className="social__img" src={linkedinIcon} alt="linkedin" />
+      <li className={styles.social__li}>
+        <a className={styles.social__link} href="#" target="_blank">
+          <img className={styles.social__img} src={linkedinIcon} alt="linkedin" />
         </a>
       </li>
     </ul>

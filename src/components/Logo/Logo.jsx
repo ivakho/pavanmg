@@ -1,10 +1,10 @@
 import React from "react";
-import "./Logo.css";
+import styles from "./Logo.module.css";
 
 const Logo = ({ logo }) => {
   return (
-    <a className="logo__link" href="/">
-      <img className="logo__img" src={logo} alt="logo" />
+    <a className={styles.logo__link} href="/">
+      <img className={styles.logo__img} src={logo} alt="logo" />
     </a>
   );
 };

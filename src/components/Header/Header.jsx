@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 import Logo from "../Logo/Logo";
 import Social from "../Social/Social";
 import Nav from "../Nav/Nav";
@@ -30,14 +30,14 @@ const NAV_INFO = [
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="header__column">
+    <header className={styles.header}>
+      <div className={styles.header__column}>
         <Logo logo={logoGradient} />
       </div>
-      <div className="header__column">
+      <div className={styles.header__column}>
         <Nav navItems={NAV_INFO} style={"default"} />
       </div>
-      <div className="header__column">
+      <div className={styles.header__column}>
         <Social />
       </div>
     </header>

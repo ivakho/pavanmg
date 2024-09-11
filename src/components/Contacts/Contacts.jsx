@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contacts.css";
+import styles from "./Contacts.module.css";
 import Logo from "../Logo/Logo";
 import Address from "../Address/Address";
 import Social from "../Social/Social";
@@ -10,14 +10,14 @@ import linkedin_fiord from "../../assets/images/icons/linkedin_fiord.svg";
 
 const Contacts = () => {
   return (
-    <div className="contacts" id="contacts__id">
-      <div className="contacts__column">
+    <div className={styles.contacts} id="contacts__id">
+      <div className={styles.contacts__column}>
         <Logo logo={logoRegular} />
       </div>
-      <div className="contacts__column">
+      <div className={styles.contacts__column}>
         <Address />
       </div>
-      <div className="contacts__column">
+      <div className={styles.contacts__column}>
         <Social
           githubIcon={github_fiord}
           twitterIcon={twitter_fiord}

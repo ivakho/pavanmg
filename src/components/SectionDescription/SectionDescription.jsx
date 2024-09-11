@@ -1,11 +1,11 @@
 import React from "react";
-import "./SectionDescription.css";
+import styles from "./SectionDescription.module.css";
 
 const SectionDescription = ({ title, paragraph, marginRight = "0px" }) => {
   return (
-    <div className="section__container">
-      <h2 className="section__title">{title}</h2>
-      <p className="section__paragraph" style={{ marginRight: marginRight }}>
+    <div className={styles.section__container}>
+      <h2 className={styles.section__title}>{title}</h2>
+      <p className={styles.section__paragraph} style={{ marginRight: marginRight }}>
         {paragraph}
       </p>
     </div>
